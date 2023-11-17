@@ -1,0 +1,137 @@
+body {
+  background-color: #0766ad;
+}
+.nav-link {
+  color: #1b7895;
+  background-color: whitesmoke;
+  margin: 0.2rem;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #29adb2;
+}
+.nav-pills .nav-link.inactive,
+.nav-pills .show > .nav-link {
+  background-color: #ffffff;
+}
+
+.profile-box {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  background-color: #29adb2;
+  margin-left: 50px;
+  margin-top: 60px;
+  border-radius: 30px;
+  justify-content: end;
+}
+.box-inside {
+  height: 90.5%;
+  width: 100%;
+  border-top: 2px solid black;
+  background-color: #29adb2;
+  margin-top: 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.profile-icons {
+  display: flex;
+  height: 2rem;
+  margin-top: 5px;
+  margin-right: 5px;
+  justify-content: end;
+}
+.profile-picture {
+  height: 100%;
+  width: 100%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.about-me {
+  font-style: ;
+  color: white;
+}
+.about-me-details {
+  font-family: sans-serif;
+}
+.about-me-name {
+  font-family: serif, sans-serif;
+}
+.diploma-image {
+  height: 300px;
+  width: 300px;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+h4 {
+  color: white;
+}
+.expi-button {
+  background-color: #29adb2;
+}
+.contact-box {
+  width: 600px;
+  border: 2px solid black;
+  background-color: #29adb2;
+  margin-left: 50px;
+  margin-top: 60px;
+  border-radius: 35px;
+  justify-content: end;
+}
+.contact-box-inside {
+  width: 100%;
+  border-top: 2px solid black;
+  background-color: #29adb2;
+  margin-top: 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.contact-icons {
+  display: flex;
+  height: 1rem;
+  margin-top: 6px;
+  margin-right: 5px;
+  justify-content: end;
+}
+.contact-picture {
+  height: 100%;
+  width: 100%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.contact-icon {
+  width: 40px;
+}
+.contact-detail {
+  color: white;
+}
+a {
+  color: white;
+}
+@media (max-width: 768px) {
+  .profile-image {
+    display: flex;
+    justify-content: center;
+  }
+  .profile-box {
+    height: 300px;
+    width: 300px;
+  }
+  .box-inside {
+    height: 90%;
+    width: 100%;
+  }
+  .profile-icons {
+    height: 1rem;
+  }
+}
